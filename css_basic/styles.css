@@ -1,20 +1,3 @@
-header {
-    background-color: lightgreen;
-}
-
-article {
-    background-color: lightsalmon;
-    /* margin-bottom: 5px; */
-}
-
-aside {
-    background-color: lightskyblue;
-}
-
-footer {
-    background-color: lightseagreen;
-}
-
 body {
     display: flex;
     flex-direction: column;
