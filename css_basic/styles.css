@@ -1,0 +1,59 @@
+header {
+    background-color: lightgreen;
+}
+
+article {
+    background-color: lightsalmon;
+    /* margin-bottom: 5px; */
+}
+
+aside {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: lightseagreen;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
