@@ -19,24 +19,17 @@ aside {
     overflow-y: auto;
 }
 
+figure {
+    width: 300px;
+    height: 200px;
+}
 
+figure img {
+    width: 100%;
+    height: 80%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+caption {
+    font-weight: bold;
+    margin-top: 10px;
+}
