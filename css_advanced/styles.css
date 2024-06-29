@@ -1,0 +1,78 @@
+/* Regular */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('web fonts/source-sans-pro/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* bold */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+    /* semi-bold */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+/* black */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    }
+    /* italic */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('web fonts/source-sans-pro/sourcesanspro-it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+/* Spin Cycle OT */
+  @font-face {
+    font-family: "Spin Cycle OT";
+    src: url('web fonts/spincycle_regular_macroman/spincycle_ot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: lightseagreen;
+    padding: 15px 150px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 53px;
+}
+
+nav ul li a {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Source Sans Pro", Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
