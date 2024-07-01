@@ -1,51 +1,11 @@
-/* Regular */
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url('web fonts/source-sans-pro/sourcesanspro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  /* bold */
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-  }
-    /* semi-bold */
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-  }
-/* black */
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url('web fonts/source-sans-pro/sourcesanspro-bold-webfont.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    }
-    /* italic */
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url('web fonts/source-sans-pro/sourcesanspro-it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-  }
-
-/* Spin Cycle OT */
-  @font-face {
-    font-family: "Spin Cycle OT";
-    src: url('web fonts/spincycle_regular_macroman/spincycle_ot-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -56,9 +16,13 @@ a {
     text-decoration: none;
 }
 
+header {
+  position: absolute;
+  width: 100%;
+}
+
 nav {
-    background: lightseagreen;
-    padding: 15px 150px;
+    padding: 35px 150px;
 }
 
 nav ul {
@@ -73,6 +37,173 @@ nav ul li {
 nav ul li a {
     font-size: 12px;
     color: #ffffff;
-    font-family: "Source Sans Pro", Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#banner {
+  background: url(./images/Object.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 156vh;
+  background-color: red;
+}
+
+.banner-info, .proz {
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner-info h1 {
+  font-size: 120px;
+  font-weight: bolder;
+  margin-top: 206px;
+}
+
+.banner-info span {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 20px 300px 20px;
+}
+
+button {
+  margin: 40px;
+  background-color: #C271FF;
+  padding: 15px 24px;
+  border-radius: 22px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3), -2px -2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.proz {
+ width: 100%;
+}
+
+.porz_profile-parent {
+  display: flex;
+  padding: 15px 150px;
+  justify-content: space-between;
+}
+
+.proz h2 {
+  margin: 120px 0 60px 0;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.title_style {
+  font-weight: bold;
+  color: #C271FF;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.porz_profile-parent h3 {
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.porz_profile-parent p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Quote */
+.quote_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+  background-color: #C271FF;
+  color: #FFFFFF;
+}
+
+.quote_details {
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+.quote_details blockquote {
+  margin-bottom: 31px;
+}
+
+.quote_details p {
+  margin-top: 5px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Tutorials */
+.tutorials_section {
+  padding: 100px;
+}
+
+.tutorials_section h2 {
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #071629;
+}
+
+.tutorials_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutorials {
+  height: 335px;
+  width: 255px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.padd {
+  padding: 0 13px;
+}
+
+.tutorials h3 {
+  color: #071629;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.tutorials p {
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tutorials .profile {
+  width: 30px;
+  height: 30px;
+  margin: 12px 0;
+  vertical-align: middle;
+}
+
+.tutorials h4 {
+  color: #C271FF;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline;
+  margin: 12px 0 12px 12px;
+}
+
+.tutorials .time {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  font-size: 14px;
+  color: #C271FF;
+  padding-right: 13px;
 }
