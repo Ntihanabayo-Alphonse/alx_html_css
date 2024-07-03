@@ -207,3 +207,36 @@ button {
   color: #C271FF;
   padding-right: 13px;
 }
+
+.membership_section {
+  padding: 60px 150px;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #071629;
+}
+
+.member_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.membership_section h2 {
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.member {
+  width: 200px;
+}
+
+.member h3 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.member p {
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 300;
+}
