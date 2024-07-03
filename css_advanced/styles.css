@@ -208,6 +208,7 @@ button {
   padding-right: 13px;
 }
 
+/* Membership */
 .membership_section {
   padding: 60px 150px;
   color: #FFFFFF;
@@ -239,4 +240,38 @@ button {
   line-height: 1.7;
   font-size: 14px;
   font-weight: 300;
+}
+
+/* FAQ */
+.faq_section {
+  padding: 60px 200px;
+}
+
+.faq_container {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 50px 0; */
+}
+
+.faq {
+  width: 360px;
+}
+
+.faq_section h2 {
+  font-weight: 300;
+  font-size: 60px;
+  color: #071629;
+  text-align: center;
+}
+
+.faq h3 {
+  margin: 75px 0 20px 0;
+  color: #071629;
+  font-size: 16px;
+}
+
+.faq .paragraph {
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.5);
+  line-height: 1.8;
 }
