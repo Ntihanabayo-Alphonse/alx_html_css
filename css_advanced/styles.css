@@ -79,6 +79,7 @@ button {
   font-size: 13px;
   font-weight: 600;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3), -2px -2px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .proz {
@@ -274,4 +275,35 @@ button {
   font-size: 14px;
   color: rgba(7, 22, 41, 0.5);
   line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  background-color: #071629;
+  padding: 100px 150px 50px 150px;
+  /* color: #FFFFFF; */
+  /* text-align: center; */
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  text-align: center;
+  color: #FFFFFF48;
+  font-size: 12px;
+  margin-top: 45px;
+}
+
+footer a {
+  background-color: #FFFFFF;
+  color: #071629;
+  padding: 7px 8px;
+  border-radius: 50%;
+}
+
+footer a:not(:last-child) {
+  margin-right: 18px;
 }
