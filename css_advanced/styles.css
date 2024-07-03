@@ -169,6 +169,17 @@ button {
   background-color: #FFFFFF;
 }
 
+.tutorials::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 13%;
+  left: 38%;
+  background-image: url(./images/play.png);
+  height: 64px;
+  width: 64px;
+}
+
 .padd {
   padding: 0 13px;
 }
@@ -251,7 +262,6 @@ button {
 .faq_container {
   display: flex;
   justify-content: space-between;
-  /* margin: 50px 0; */
 }
 
 .faq {
