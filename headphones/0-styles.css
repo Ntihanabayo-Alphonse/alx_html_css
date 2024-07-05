@@ -101,7 +101,7 @@ nav ul li a:hover {
 .banner {
 	background-image: url(./images/headphones_hero_1.jpg);
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 	height: 100%;
 }
 
@@ -217,6 +217,15 @@ nav ul li a:hover {
 		position: absolute;
 		top: 18%;
 		left: 9%;
+	}
+
+	.banner_details {
+		top: 100%;
+		width: 98%;
+	}
+
+	.extra_info {
+		margin-top: 60px;
 	}
 
 
