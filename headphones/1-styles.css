@@ -1,0 +1,89 @@
+:root {
+    --color-primary: #FF6565;
+    --color-secondary: #071629;
+    --color-white: #FFFFFF; 
+}
+
+/* What we do section */
+.what_we_do_section {
+    color: var(--color-secondary);
+    padding: 80px 160px;
+}
+
+.section_title {
+    margin: 0 auto;
+    width: 64%;
+    text-align: center;
+}
+
+.section_title h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section_title p {
+    font-size: 16px;
+    margin: 30px 0 80px 0;
+    line-height: 1.7;
+}
+
+.section_details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.section_details .card {
+    text-align: center;
+    width: 200px;
+}
+
+.section_details .card .icon {
+    font-size: 100px;
+    color: var(--color-primary);
+}
+
+.section_details .card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section_details .card p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* Responsive Design */
+/* tablet */
+@media (max-width: 1000px) {
+    .what_we_do_section {
+        padding: 80px 100px;
+    }
+
+    .section_title {
+        width: 100%;
+    }
+
+    .section_details {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .what_we_do_section {
+        padding: 80px 70px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .section_details {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section_details .card:not(:last-child) {
+        margin-bottom: 60px;
+    }
+}
