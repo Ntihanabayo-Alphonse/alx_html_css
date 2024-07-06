@@ -1,0 +1,56 @@
+:root {
+    --color-primary: #FF6565;
+    --color-secondary: #071629;
+    --color-white: #FFFFFF; 
+}
+
+/* What we do section animation */
+.section_details .card:hover .icon {
+    animation: rotate 1s linear 1;
+    display: block;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Results section animation */
+.results_section .section_title h2 {
+    letter-spacing: 1px;
+    animation: text 3s infinite;
+}
+
+@keyframes text {
+    0%{
+        letter-spacing: 1px;
+    }
+    30%{
+        letter-spacing: 2px;
+        color: var(--color-primary);
+    }
+    100%{
+        letter-spacing: 1px;
+    }
+}
+
+
+.section_details .pentagon {
+    animation: move 3s linear infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
