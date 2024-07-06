@@ -1,0 +1,37 @@
+:root {
+    --color-primary: #FF6565;
+    --color-secondary: #071629;
+    --color-white: #FFFFFF; 
+}
+/* Our Results Section */
+/* Pentagon Shapes */
+.shape {
+    width: 190px;
+    border-width: 116px 30px 0;
+    border-style: solid;
+    border-color: var(--color-primary) transparent;
+    margin-top: 78px;
+}
+
+.shape::before {
+    content: "";
+    position: absolute;
+    top: 2.5px;
+    left: 0px;
+    border-width: 0 95px 75px;
+    border-style: solid;
+    border-color: transparent transparent var(--color-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 1067px) {
+    .shape::before {
+        top: 2.7px;
+    }
+}
+
+@media (max-width: 951px) {
+    .shape::before {
+        top: 3px;
+    }
+}
