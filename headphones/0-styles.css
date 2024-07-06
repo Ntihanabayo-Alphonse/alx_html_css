@@ -153,6 +153,10 @@ nav ul li a:hover {
 	color: var(--color-white);
 }
 
+.close {
+	font-size: 38px;
+}
+
 /* Responsive Design */
 /* tablet */
 @media (max-width: 1000px) {
@@ -187,17 +191,16 @@ nav ul li a:hover {
 	}
 	nav {
 		padding: 22px 40px;
-		justify-content:flex-start;
-		align-items: center;
 	}
 	
 	nav ul {
 		position: absolute;
-		top: 140%;
+		top: 159%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		display: none;
 	}
+
 	nav ul li {
 		display: block;
 	}
@@ -205,19 +208,31 @@ nav ul li a:hover {
 		margin-bottom: 15px;
 	}
 
-	.toggle{
+	nav .toggle {
+		display: block;
+		font-size: 25px;
+	}
+	
+	nav .close, nav .toggle{
+		position: absolute;
+		top: 35%;
+		left: 10%;
+	}
+
+	nav .close {
+		top: 20%;
+	}
+
+	.close:target{
 		display: block;
 	}
 
-	nav .toggle {
-		font-size: 25px;
+	.close:target + .toggle {
+		display: none;
 	}
-	nav .close{
-		font-size: 38px;
-		margin-left: 0;
-		position: absolute;
-		top: 18%;
-		left: 9%;
+
+	.close:target ~ .mobile_menu {
+		display: block;
 	}
 
 	.banner_details {
@@ -228,14 +243,4 @@ nav ul li a:hover {
 	.extra_info {
 		margin-top: 60px;
 	}
-
-
-
-    #menu:target {
-        display: block;
-    }
-
-    #menu:target + .close {
-        display: block;
-    }
 }
