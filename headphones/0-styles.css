@@ -134,6 +134,7 @@ nav ul li a:hover {
 	font-weight: bold;
 	margin-top: 43px;
 	box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2), -2px -2px 25px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
 }
 
 .call_btn:hover {
